@@ -1,0 +1,3 @@
+# Copy to config.toml to build against a local checkout of the SDK.
+[patch."https://github.com/rhun-editor/extension-protocol"]
+rhun-ext = { path = "../extension-protocol/rust/rhun-ext" }

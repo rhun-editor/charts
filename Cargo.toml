@@ -1,0 +1,16 @@
+[package]
+name = "charts"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Charts of the project and the open file, drawn in a rhun tab"
+publish = false
+
+[dependencies]
+rhun-ext = { path = "../extension-protocol/rust/rhun-ext" }
+
+[profile.release]
+opt-level = "s"
+lto = true
+strip = true
+panic = "abort"

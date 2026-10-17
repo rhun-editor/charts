@@ -1,0 +1,17 @@
+# Run with: rhun PROJECT --headless 1000x600 --scale 1 --extensions DIR --script tests/basic.txt
+# where DIR/rhun-editor/charts holds extension.ini and bin/ (tests/run.sh sets that up).
+wait 100
+open proj/sample.rs
+cmd charts.lengths
+wait-ext charts running
+wait 500
+print-tabs
+print-views
+cmd charts.languages
+wait 500
+print-tabs
+print-views
+move 300 300
+click 300 300
+wait 300
+print-views

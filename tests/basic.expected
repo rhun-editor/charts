@@ -1,0 +1,8 @@
+ext=charts state=running
+tabs=sample.rs | *Lengths: sample.rs
+view=1 title=Lengths: sample.rs shapes=21 size=1000x498 at=0,76
+tabs=sample.rs | Lengths: sample.rs | *Languages
+view=1 title=Lengths: sample.rs shapes=21 size=1000x498 at=0,76
+view=2 title=Languages shapes=18 size=1000x498 at=0,76
+view=1 title=Lengths: sample.rs shapes=21 size=1000x498 at=0,76
+view=2 title=Languages shapes=8 size=1000x498 at=0,76
