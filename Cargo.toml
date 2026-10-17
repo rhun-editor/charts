@@ -7,7 +7,7 @@ description = "Charts of the project and the open file, drawn in a rhun tab"
 publish = false
 
 [dependencies]
-rhun-ext = { path = "../extension-protocol/rust/rhun-ext" }
+rhun-ext = { git = "https://github.com/rhun-editor/extension-protocol", tag = "rust-v1.1.0" }
 
 [profile.release]
 opt-level = "s"

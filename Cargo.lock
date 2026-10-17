@@ -12,3 +12,4 @@ dependencies = [
 [[package]]
 name = "rhun-ext"
 version = "1.1.0"
+source = "git+https://github.com/rhun-editor/extension-protocol?tag=rust-v1.1.0#1e776971617340c672ebf462076d411f36f58e5e"
