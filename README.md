@@ -40,8 +40,5 @@ cargo build --release
 tests/run.sh            # headless, against the rhun on your PATH: tests/basic.txt, tests/numbers.txt
 ```
 
-Until rhun-ext 1.4.0 is released, `Cargo.toml` takes it from a checkout of
-`rhun-editor/extension-protocol` beside this one.
-
 A tag `vX.Y.Z` equal to `version` in `extension.ini` builds Linux, macOS and Windows on their own
 runners and publishes what Install from GitHub takes (section 11 of the spec).

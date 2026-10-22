@@ -7,9 +7,8 @@ description = "Charts of the project and the open file, drawn in a rhun tab"
 publish = false
 
 [dependencies]
-# rhun-ext 1.4.0 (protocol 1.1) from a checkout beside this one until it is released; then
-# { git = "https://github.com/rhun-editor/extension-protocol", tag = "rust-v1.4.0" }
-rhun-ext = { path = "../extension-protocol/rust/rhun-ext" }
+# rhun-ext 1.4.0: protocol 1.1
+rhun-ext = { git = "https://github.com/rhun-editor/extension-protocol", tag = "rust-v1.4.0" }
 
 [profile.release]
 opt-level = "s"
