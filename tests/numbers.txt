@@ -1,0 +1,36 @@
+# Run with: rhun PROJECT --headless 1000x600 --scale 1 --extensions DIR --script tests/numbers.txt
+# (tests/run.sh sets it up). Protocol 1.1: each chart's numbers in the table of the bottom panel,
+# Space in the language chart switches to a pie, Ctrl+C copies its numbers, and the status bar
+# shows the project's line count.
+wait 100
+cmd charts.languages
+wait-ext charts running
+wait 500
+print-status
+view-show numbers
+wait 300
+wait 300
+print-view numbers
+print-views
+move 300 300
+click 300 300
+wait 300
+print-views
+key space
+wait 300
+print-views
+key ctrl+c
+wait 300
+open proj/notes.txt
+key ctrl+End
+key ctrl+v
+print-doc
+cmd charts.lengths
+wait 500
+print-view numbers
+view-focus numbers
+key End
+key Return
+wait 300
+wait 300
+print-state

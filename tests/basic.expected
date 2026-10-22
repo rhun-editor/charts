@@ -1,8 +1,11 @@
 ext=charts state=running
 tabs=sample.rs | *Lengths: sample.rs
-view=1 title=Lengths: sample.rs shapes=21 size=1000x498 at=0,76
+view=2 title=Lengths: sample.rs shapes=21 size=1000x498 at=0,76
+view=1 kind=table place=panel name=numbers rev=2 state=ready busy=0 title=Line lengths of sample.rs badge=0 visible=0 nodes=3
 tabs=sample.rs | Lengths: sample.rs | *Languages
-view=1 title=Lengths: sample.rs shapes=21 size=1000x498 at=0,76
-view=2 title=Languages shapes=18 size=1000x498 at=0,76
-view=1 title=Lengths: sample.rs shapes=21 size=1000x498 at=0,76
-view=2 title=Languages shapes=8 size=1000x498 at=0,76
+view=2 title=Lengths: sample.rs shapes=21 size=1000x498 at=0,76
+view=3 title=Languages shapes=18 size=1000x498 at=0,76
+view=1 kind=table place=panel name=numbers rev=3 state=ready busy=0 title=Languages in proj badge=0 visible=0 nodes=1 message=3 lines
+view=2 title=Lengths: sample.rs shapes=21 size=1000x498 at=0,76
+view=3 title=Languages shapes=8 size=1000x498 at=0,76
+view=1 kind=table place=panel name=numbers rev=3 state=ready busy=0 title=Languages in proj badge=0 visible=0 nodes=1 message=3 lines
